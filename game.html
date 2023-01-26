@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta-charset-utf-8>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title> My Entertainment page </title>
+    </head>
+    <body>
+        <h1 id="head1">Have Some fun</h1>
+        <p id="p1">This is my game page</p>
+        <div id="navMenu">
+            <a href="index.html"> HOME</a>
+            <a href="food.html"> FOOD</a>
+            <a href="game.html"> ENTERTAINMENT</a>
+            <a href="movies.html"> MOVIES</a>
+        </div>
+       <div id="game">
+            <div id="stats">
+                <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span id="xpText">87</span></strong></span>
+                <span class="stat">Gold: <strong><span id="xpText">60</span></strong></span>
+            </div>
+            <div id="controls">
+                <button id="button1">Go to Store</button>
+                <button id="button2">Go to Cave</button>
+                <button id="button2">Fight Dragon</button>
+            </div>
+            <div id="monsterStats">
+                <span class="stat">Monster Name: <strong> <span id="monsterName"></span></strong></span>
+                <span class="stat">Monster Health: <strong> <span id="monsterHealth"></span></strong></span>
+            </div>
+            <div id="text">
+                Welcome to the dragon repeller. You must defeat the dragon that is preventing
+                people from leaving the city. You are in the town square. Where do you wanttogo to? Use the buttons above
+            </div>
+       </div>
+       <br>
+        <button title="Send" type="submit" onclick={handleSubmit}> Send Score</button>
+    <script src="app.js"></script>
+    </body>
+</html>
